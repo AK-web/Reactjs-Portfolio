@@ -1,3 +1,3 @@
 # Reactjs-Portfolio
 
-Deployed on Vercel: ([Anand Kanti](anand-kanti.vercel.app))
+Deployed on Vercel: [Anand Kanti](anand-kanti.vercel.app)
