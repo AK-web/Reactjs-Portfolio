@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-navy-900;
+  cursor: none;
+}
+
+a,
+button {
+  cursor: none;
+}
+
+a:hover ~ .cursor,
+button:hover ~ .cursor {
+  transform: scale(1.5);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-navy-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-blue-900 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-blue-800;
+}
+
+.custom-cursor-1 {
+  cursor: url("https://img.icons8.com/?size=100&id=VzDRYuJN6JLX&format=png&color=000000"),
+    auto; /* Replace with your icon path */
+}
+
+.custom-cursor-2 {
+  cursor: url("https://img.icons8.com/?size=100&id=YwG2aICPU0VN&format=png&color=000000"),
+    auto; /* Replace with your icon path */
+}
+
+.custom-cursor-book {
+  cursor: url("https://img.icons8.com/?size=100&id=Fqihn9MGe0kQ&format=png&color=000000"),
+    auto; /* Replace with your icon path */
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Apply the slide-down animation */
+.slide-down {
+  animation: slideDown 1s ease-out forwards;
+}
+
+/* Fancy Slide-in from Top Animation */
+@keyframes slideInTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(10%);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.fancy-slide-in {
+  animation: slideInTop 1.2s ease-out 0.5s forwards;
+}
