@@ -12,7 +12,7 @@ export const Content = () => {
       year: '2025 - Present',
       title: 'Senior Software Engineer | HCLTech',
       description: 'Working on retail bank application as a java backend Engineer.',
-      technologies: ['Java', 'Typescript', 'Spring-boot', 'React.js', 'SQL', 'apache camel', 'aws', 'Micro-services', 'Java JavaScript'],
+      technologies: ['Java', 'Typescript', 'Spring-boot', 'React.js', 'SQL', 'apache camel', 'aws', 'Micro-services', 'JavaScript'],
       link: 'https://www.hcltech.com/'
     },
 
