@@ -10,7 +10,7 @@ export const Content = () => {
   const experiences = [
     {
       year: '2025 - Present',
-      title: 'Software Engineer | Globallogic',
+      title: 'Software Engineer | HCLTech',
       description: 'Working on retail bank application as a java backend Engineer.',
       technologies: ['Java', 'Typescript', 'Spring-boot', 'React.js', 'SQL', 'apache camel', 'aws', 'Micro-services', 'Java JavaScript'],
       link: 'https://www.hcltech.com/'
